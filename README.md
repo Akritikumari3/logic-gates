@@ -18,12 +18,12 @@ This VHDL-based project was developed to strengthen understanding of **RTL desig
 - ✅ XNOR Gate  
 Each logic gate is written in VHDL, tested using a testbench, and mapped for FPGA pins via constraint files.
 ## 📁 Repository Structure
-vhdl_logic_gates/
-├── Logic_Gates.vhd # Main VHDL file with gate logic
-├── TB_All_Logic_Gates.vhd # Testbench file for simulation
-├── MYXDCFILE.xdc # Constraints file (pin assignments)
-├── screenshots/ # Images of simulation, waveform & schematic
-└── README.md
+vhdl_logic_gates
+Logic_Gates.vhd # Main VHDL file with gate logic
+TB_All_Logic_Gates.vhd # Testbench file for simulation
+MYXDCFILE.xdc # Constraints file (pin assignments)
+screenshots/ # Images of simulation, waveform & schematic
+README.md
 ## 🧪 Testbench Overview
 The testbench applies all combinations of binary inputs:
 - `00`, `01`, `10`, `11`
@@ -42,5 +42,6 @@ Simulation is done using Vivado’s **Behavioral Simulation**, with results visu
 4. Run **Behavioral Simulation**
 5. Check waveform output
 6. (Optional) Run **Synthesis**, **Implementation**, and **Bitstream Generation** for FPGA
+   
 ⭐️ **If you found this project useful, give it a star and share with others!**
 
