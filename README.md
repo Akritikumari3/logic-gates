@@ -19,11 +19,11 @@ This VHDL-based project was developed to strengthen understanding of **RTL desig
 Each logic gate is written in VHDL, tested using a testbench, and mapped for FPGA pins via constraint files.
 ## 📁 Repository Structure
 vhdl_logic_gates
-Logic_Gates.vhd # Main VHDL file with gate logic
-TB_All_Logic_Gates.vhd # Testbench file for simulation
-MYXDCFILE.xdc # Constraints file (pin assignments)
-screenshots/ # Images of simulation, waveform & schematic
-README.md
+- Logic_Gates.vhd # Main VHDL file with gate logic
+- TB_All_Logic_Gates.vhd # Testbench file for simulation
+- MYXDCFILE.xdc # Constraints file (pin assignments)
+- screenshots/ # Images of simulation, waveform & schematic
+- README.md
 ## 🧪 Testbench Overview
 The testbench applies all combinations of binary inputs:
 - `00`, `01`, `10`, `11`
